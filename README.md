@@ -6,7 +6,7 @@
 - Cria 
 Exemplo:
 ```
-Posso a interface Documento e duas classes que a implementam: CPF e CNPJ.
+Possuo a interface Documento e duas classes que a implementam: CPF e CNPJ.
 Existe a classe abstrata Pessoa e 2 subclasses, PessoaFisica e PessoaJuridica.
 PessoaFisica instancia (possui um método) a classe CPF e PessoaJuridica instancia a classe CNPJ
 ```
