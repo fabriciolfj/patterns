@@ -13,7 +13,7 @@ public class PassagemOnibusInterestadual extends Passagem {
     }
 
     @Override
-    void imprimir() {
+    public void imprimir() {
         log.info("Imprimindo passagem interestadual");
         log.info("Origem: {} Destino: {} Hora: {}", super.getOrigem(), super.getDestino(), super.getHoraEmissao());
     }
