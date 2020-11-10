@@ -23,3 +23,6 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 ### Prototype
 - Especifica os tipos de objetos a serem criados usando uma instância protótipo e cria novos objetos pela cópia deste protótipo.
 - Uma instância inicializada a ser copiada ou clonada ou seja, fazer clones de objetos.
+- Ideal para contextos onde os objetos não sofrem tanta alteração, como municipios, formulas matemáticas, pois com advento do clone pode aumentar significativamente  o uso da memória.
+
+## Comportamentais
