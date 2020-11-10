@@ -32,3 +32,7 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 ### Bridge
 - Desacopla uma abstração da sua implementação, de modo que as duas possam varial independentemente.
 - Separa o objeto da sua implementação.
+
+### Adapter
+- Permite que interfaces incompativéis trabalhem em conjunto.
+- converte uma interface de uma classe em outra interface, esperada pelos clientes.
