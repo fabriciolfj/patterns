@@ -37,3 +37,8 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 - Permite que interfaces incompativéis trabalhem em conjunto.
 - converte uma interface de uma classe em outra interface, esperada pelos clientes.
 - Basicamente extendemos a classe que queiramos adaptar (mudar o comportamento), e realizamos o override no método correspondente.
+- Equivale ao padrão bridge, mas realizando uma ponto com interfaces incompatíveis.
+
+### Proxy
+- fornece um marcado de localização de outro objeto para controlar o acesso ao mesmo.
+- basicamente ele controla o acesso a um objeto (um if apenas).
