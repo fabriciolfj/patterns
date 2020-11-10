@@ -26,3 +26,9 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 - Ideal para contextos onde os objetos não sofrem tanta alteração, como municipios, formulas matemáticas, pois com advento do clone pode aumentar significativamente  o uso da memória.
 
 ## Comportamentais
+- Eles se preocupam com a composição das classes e seus objetos.
+- O conceito de herança e largamente utilizado.
+
+### Bridge
+- Desacopla uma abstração da sua implementação, de modo que as duas possam varial independentemente.
+- Separa o objeto da sua implementação.
