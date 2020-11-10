@@ -36,3 +36,4 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 ### Adapter
 - Permite que interfaces incompativéis trabalhem em conjunto.
 - converte uma interface de uma classe em outra interface, esperada pelos clientes.
+- Basicamente extendemos a classe que queiramos adaptar (mudar o comportamento), e realizamos o override no método correspondente.
