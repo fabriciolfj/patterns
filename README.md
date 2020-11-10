@@ -41,3 +41,4 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Proxy
 - fornece um marcado de localização de outro objeto para controlar o acesso ao mesmo.
+- basicamente ele controla o acesso a um objeto (um if apenas).
