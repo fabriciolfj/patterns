@@ -1,7 +1,6 @@
 package com.fabriciolfj.github.patterns.criacional.abstractfactory.atualizado;
 
 import com.fabriciolfj.github.patterns.criacional.abstractfactory.PassagemOnibusUrbano;
-import com.fabriciolfj.github.patterns.criacional.factorymethod.Passagem;
 import com.fabriciolfj.github.patterns.criacional.factorymethod.PassagemOnibusInterestadual;
 
 import java.time.LocalDateTime;
