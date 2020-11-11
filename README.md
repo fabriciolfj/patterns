@@ -49,3 +49,7 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Composite
 - Compõe objetos em estruturas de árvore.
+
+### Facade
+- Fornece uma interface unificada para um conjunto de interfaces em um sistema. O facade define uma interface de nível mais alto que torna o subsistema mais fácil de ser usado.
+- Basicamente é uma faxada onde esta, chamada diversos processos para concluir um fluxo por exemplo.
