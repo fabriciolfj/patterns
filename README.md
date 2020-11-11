@@ -46,3 +46,6 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 ### Decorator
 - Agregar dinamicamente responsabilidades a um objeto.
 - Basicamente você possui um objeto base, e um objeto que vai inserido outros (decorações) em uma pilha.
+
+### Composite
+- Compõe objetos em estruturas de árvore.
