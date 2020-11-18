@@ -25,7 +25,7 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 - Uma instância inicializada a ser copiada ou clonada ou seja, fazer clones de objetos.
 - Ideal para contextos onde os objetos não sofrem tanta alteração, como municipios, formulas matemáticas, pois com advento do clone pode aumentar significativamente  o uso da memória.
 
-## Comportamentais
+## Estruturais
 - Eles se preocupam com a composição das classes e seus objetos.
 - O conceito de herança e largamente utilizado.
 
@@ -56,3 +56,9 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Flyweight
 - Manipular grande quantidade de objetos em memória, partindo do princípio que é um recurso escasso.
+
+## Comportamental
+- Relacionados a comunicação entre objetos
+
+### Commands
+- Encapsular comandos em um objeto, ou seja, executa várias ações em um objeto e cada ação é representada por um objeto ou também utilizado para desfazer várias ações em um objeto. Exemplo: uma nota fiscal ao ser emitida, precisa: mandar para a sefaz, imprimir a danfe, atualizaro pediod, debitar o estoque.
