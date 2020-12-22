@@ -69,3 +69,6 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 ### State
 - Permite alterar o comportamento do objeto, com seu estado interno muda.
 - Basicamente cria-se um objeto para cada estado, que o objeto possui.
+
+### Observer
+- Cria uma dependência de uma para muitos entre objetos, de uma maneira quando um muda seu estado, ele notifica os demais. (relação do observado e observadores)
