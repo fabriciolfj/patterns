@@ -2,11 +2,11 @@ package com.fabriciolfj.github.patterns.comportamental.state;
 
 public class RG extends Documento {
 
-    private Emissao imprimir;
+    private Emissao estado;
     private Emissao email;
 
     public RG() {
-        this.imprimir = new Imprimir();
+        this.estado = new Imprimir();
         this.email = new Email();
     }
 
@@ -15,12 +15,12 @@ public class RG extends Documento {
     }
 
     public void imprimir() {
-        this.imprimir.exec();
+        this.estado.exec();
     }
 
     @Override
     public void setImpressao(Emissao e) {
-        imprimir = e;
+        estado = e;
     }
 
     @Override
