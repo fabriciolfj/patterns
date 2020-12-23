@@ -75,3 +75,6 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Mediator
 - encapsula a forma como um conjunto de objetos interage, promovendo o baixo acoplamento, evitando que os objetos se refiram uns aos outros explicitamente.
+
+### Chain of responsibility
+- Uma maneira de passar uma requisição entre uma cadeia de objetos.
