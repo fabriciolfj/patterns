@@ -61,7 +61,7 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 - Relacionados a comunicação entre objetos
 
 ### Commands
-- Encapsular comandos em um objeto, ou seja, executa várias ações em um objeto e cada ação é representada por um objeto ou também utilizado para desfazer várias ações em um objeto. Exemplo: uma nota fiscal ao ser emitida, precisa: mandar para a sefaz, imprimir a danfe, atualizaro pediod, debitar o estoque.
+- Encapsular comandos em um objeto, ou seja, executa várias ações em um objeto e cada ação é representada por um objeto ou também utilizado para desfazer várias ações em um objeto. Exemplo: uma nota fiscal ao ser emitida, precisa: mandar para a sefaz, imprimir a danfe, atualizaro pedido, debitar o estoque.
 
 ### Strategy
 - Permie que algoritimos varie independente do cliente que esteja utilizando.
