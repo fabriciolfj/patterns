@@ -72,3 +72,6 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Observer
 - Cria uma dependência de uma para muitos entre objetos, de uma maneira quando um muda seu estado, ele notifica os demais. (relação do observado e observadores)
+
+### Mediator
+- encapsula a forma como um conjunto de objetos interage, promovendo o baixo acoplamento, evitando que os objetos se refiram uns aos outros explicitamente.
