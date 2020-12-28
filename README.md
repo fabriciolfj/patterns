@@ -78,3 +78,7 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Chain of responsibility
 - Uma maneira de passar uma requisição entre uma cadeia de objetos.
+
+### Template Method
+- Define um esqueleto de um algoritimo em uma operação, postergando alguns passos para subclasses. 
+- Permite que subclasses redefinam comportamento de certos passos, sem mudar a estrutura.
