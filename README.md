@@ -82,3 +82,7 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 ### Template Method
 - Define um esqueleto de um algoritimo em uma operação, postergando alguns passos para subclasses. 
 - Permite que subclasses redefinam comportamento de certos passos, sem mudar a estrutura.
+
+### Interpreter
+- Interpreta uma expressão, ou utiliza as classes para representar uma regra de alguma gramática.
+- Basicamente teremos uma classe abstrata com algumas regras genericas e metodos abstratos, de onde viram as representações específicas.
