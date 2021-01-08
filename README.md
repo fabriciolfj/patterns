@@ -86,3 +86,6 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 ### Interpreter
 - Interpreta uma expressão, ou utiliza as classes para representar uma regra de alguma gramática.
 - Basicamente teremos uma classe abstrata com algumas regras genericas e metodos abstratos, de onde viram as representações específicas.
+
+### Memento
+- Salvar o estado de um objeto, sem quebrar o encapsulamento, e recuperar esse estado posteriormente.
