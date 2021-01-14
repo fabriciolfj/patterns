@@ -89,3 +89,10 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Memento
 - Salvar o estado de um objeto, sem quebrar o encapsulamento, e recuperar esse estado posteriormente.
+
+### Iterator
+- Percorre uma lista sequencialmente, sem expor a representação do objeto.
+
+### Visitor
+- Define uma nova operação a uma classe sem altera-la.
+
