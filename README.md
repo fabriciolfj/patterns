@@ -52,7 +52,7 @@ PessoaFisica instancia/fabrica (possui um método) a classe CPF e PessoaJuridica
 
 ### Facade
 - Fornece uma interface unificada para um conjunto de interfaces em um sistema. O facade define uma interface de nível mais alto que torna o subsistema mais fácil de ser usado.
-- Basicamente é uma faxada onde esta, chamada diversos processos para concluir um fluxo por exemplo.
+- Basicamente é uma fachada onde esta, chama diversos processos para concluir um fluxo por exemplo.
 
 ### Flyweight
 - Manipular grande quantidade de objetos em memória, partindo do princípio que é um recurso escasso.
