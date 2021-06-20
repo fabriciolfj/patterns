@@ -2,11 +2,14 @@ package com.fabriciolfj.github.patterns.v2.comportamental.strategy.model;
 
 import com.fabriciolfj.github.patterns.v2.comportamental.state.EstadoPedido;
 import com.fabriciolfj.github.patterns.v2.comportamental.state.impl.EmAnalise;
+import com.fabriciolfj.github.patterns.v2.comportamental.state.impl.Finalizado;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.math.BigDecimal;
 
+@ToString
 @Getter
 @Setter
 public class Orcamento {
@@ -33,5 +36,9 @@ public class Orcamento {
 
     public void finalizar() {
         this.estadoPedido.finalizar();
+    }
+
+    public boolean isFinalizado() {
+        return this.estadoPedido instanceof Finalizado;
     }
 }
